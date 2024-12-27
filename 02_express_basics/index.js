@@ -22,7 +22,7 @@ app.get("/redirect", (req, res)=>{
 })
 
 app.get("/*", (req, res)=>{
-
+    // this is improved in 03-middleware
     console.log("baseUrl :",req.baseUrl)
     console.log("url :",req.url)
 
